@@ -1,0 +1,34 @@
+.resume-container{
+    /* padding-left: 10px; */
+    background-color: lightgray;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profile-img{
+    display: block;
+    height: 200px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar{
+    float: left;
+    width:25%;
+    padding-left: 10px;
+    background-color: lightgray;
+}
+
+.main-content{
+    float:left;
+    width:72%;
+    padding-left: 20px;
+    background-color: lightgray;
+}
+
+hr{
+    border: none;
+    height: 3px;
+    background: black;
+}

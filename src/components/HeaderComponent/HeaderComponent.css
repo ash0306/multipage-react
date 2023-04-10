@@ -1,0 +1,27 @@
+.header {
+    text-align: center;
+    justify-content: space-evenly;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color:teal;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.resume-con{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.calc-con{
+    color: white;
+    text-decoration: none;
+}
+
+.api-con{
+    color: white;
+    text-decoration: none;
+}
