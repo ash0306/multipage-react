@@ -1,1 +1,21 @@
-/* css */
+.axios-main{
+    background-color: lightgray;
+    align-items: center;
+    text-align: center;
+}
+
+.comic{
+    padding-bottom: 50px;
+    display: grid;
+    z-index: 1;
+    justify-content: center; 
+    place-items: center;
+    grid-template-columns: repeat(4, 280px);
+    grid-template-rows: 380px;
+    grid-gap: 20px;
+}
+
+.comic-img{
+    width:200px;
+    height:200px;
+}

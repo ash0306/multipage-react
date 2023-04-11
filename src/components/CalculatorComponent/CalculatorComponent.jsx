@@ -1,9 +1,13 @@
 import React from 'react'
 import './CalculatorComponent.css'
+import HeaderComponent from '../HeaderComponent/HeaderComponent'
 
 function CalculatorComponent() {
   return (
-    <div>CalculatorComponent</div>
+    <React.Fragment>
+        <HeaderComponent/>
+        <div></div>
+    </React.Fragment>
   )
 }
 
